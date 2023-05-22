@@ -1,0 +1,19 @@
+/* swiper-custom.css */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important; /* change color of the icons */
+  font-size: 24px; /* change size of the icons */
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+  content: ""; /* remove the default arrow content */
+}
+
+.swiper-button-prev::after {
+  content: "\2190"; /* add a left arrow icon */
+}
+
+.swiper-button-next::after {
+  content: "\2192"; /* add a right arrow icon */
+}

@@ -1,0 +1,61 @@
+{
+    "projects_category" :[
+    {
+    "category_id": "1",
+    "category_name": "All"
+    },
+    {
+    "category_id": "2",
+    "category_name": "Angola"
+    },
+    {
+    "category_id": "3",
+    "category_name": "Benin"
+    },
+    {
+    "category_id": "4",
+    "category_name": "Burkina Faso"
+    },
+    {
+    "category_id": "5",
+    "category_name": "DRC"
+    },
+    {
+    "category_id": "6",
+    "category_name": "Guinea"
+    },
+    {
+    "category_id": "7",
+    "category_name": "Indonesia"
+    },
+    {
+    "category_id": "8",
+    "category_name": "Ivory Coast"
+    },
+    {
+    "category_id": "9",
+    "category_name": "Mali"
+    },
+    {
+    "category_id": "10",
+    "category_name": "Nigeria"
+    },
+ 
+    {
+    "category_id": "11",
+    "category_name": "Sudan"
+    },
+    {
+    "category_id": "12",
+    "category_name": "Togo"
+    },
+    {
+    "category_id": "13",
+    "category_name": "Togo"
+    },
+    {
+    "category_id": "14",
+    "category_name": "Zimbabwe"
+    }
+    ]
+}

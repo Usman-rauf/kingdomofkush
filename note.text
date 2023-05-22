@@ -1,0 +1,69 @@
+		
+Due task 100% same to kingdom
+===============================
+About Page 2 sections -- Nafiz Sheikh
+Vendor Page --- only stripe -- Nafiz Sheikh
+Project page -- working - Md. Ayakub
+Contact page redesign -- Nafiz Sheikh
+
+==== Next work ====
+Cursor effect --
+
+Language system -- rabbi
+  https://codepen.io/mewmix/pen/bGdNbbZ
+
+Vedio lightbox -- rabbi 
+  https://www.npmjs.com/package/react-image-video-lightbox
+
+
+Counter design -- rabbi
+  https://www.npmjs.com/package/react-countup
+
+Dark light mode system  -- rabbi
+  Tailwind dark light mode
+
+
+backend=== 3 days
+==================
+  Membership System 
+  Volunteer
+  Vendor
+  Invest
+  Donation 
+  Contact us
+  Email sending 
+  Stripe Subscription Base payment method
+
+  All the task is Depand on stripe payment method ---
+
+
+hosting === 2 days
+
+Dyploy on azure 
+Upload Strapi Collection as google sheet 
+setup mongodb database
+
+
+
+Stipe -- 
+ npm install @stripe/stripe-js @stripe/react-stripe-js stripe
+
+
+Stripe Subscription ---
+   Membership
+
+Stripe None Subscription -- 
+
+  Vendor
+  Donation
+
+
+
+Backend Due Task 
+================
+
+Membership --- RegistrationId
+
+Volunteer --- RegistrationId
+
+Vendor --- RegistrationId

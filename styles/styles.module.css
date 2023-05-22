@@ -1,0 +1,143 @@
+.commonBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.workBg {
+  background-size: cover;
+  background-attachment: top;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/work.jpg");
+}
+
+.basicInfoBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/about/oh__img150-1.jpg");
+}
+
+.questionTouchBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/about/oh__img156-1-scaled.jpg");
+}
+
+.memberBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/home.aboutUs.jpg");
+}
+
+.moreInfoBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/about/oh__img152-1.jpg");
+}
+
+.flagLangfoBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/about/oh__img155-1-scaled.jpg");
+}
+
+.volunteerBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/clipboard.png");
+}
+
+.vendorBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/vendorimage.jpg");
+}
+
+.aboutBg {
+  background-image: url("../assets/images/home.aboutUs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.smallGroupBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/home.smallgroup.jpg");
+}
+
+.findBg {
+  background-size: cover;
+  background-attachment: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/about/oh__img158-1-scaled.jpg.jpg");
+}
+
+.GetBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/about/getIntouchBg.jpg");
+}
+
+.ContactBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-image: url("../assets/images/work.jpg");
+}
+
+.child_nav:hover>ul {
+  transform: translateY(0rem);
+  opacity: 1;
+}
+
+.select+label {
+  color: #000 !important;
+  border: #000 !important;
+  display: none;
+}
+
+.select:active+label {
+  color: white !important;
+}
+
+.warningMessage {
+  visibility: hidden;
+}
+
+input:invalid+.warningMessage {
+  visibility: visible;
+}

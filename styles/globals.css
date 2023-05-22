@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.kursor {
+    z-index: 9999999;
+    pointer-events: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul,
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* .swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+} */
+.swiper {
+    width: inherit;
+    height: inherit;
+}
+
+.swiper-slide {
+    display: flex;
+    font-size: 18px;
+    background: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* swiper-custom.css */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #000 !important;
+    /* change color of the icons */
+    font-size: 24px;
+    /* change size of the icons */
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    content: "" !important;
+    /* remove the default arrow content */
+}
+
+.swiper-button-prev::after {
+    content: "\2190" !important;
+    /* add a left arrow icon */
+}
+
+.swiper-button-next::after {
+    content: "\2192" !important;
+    /* add a right arrow icon */
+}
+
+/* toggle swithcer */
+input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: #48bb78;
+}
+
+.swal2-actions {
+    width: 100% !important;
+    padding: 0 20px !important;
+}
+
+.swal2-actions button {
+    flex: 1 !important;
+}
+
+#google_translate_element {
+    overflow: hidden;
+    height: 45px;
+}
+
+#google_translate_element .goog-te-gadget {
+    visibility: hidden;
+}
+
+#google_translate_element .goog-te-gadget div {
+    visibility: visible;
+}
+
+#google_translate_element .goog-te-gadget span {
+    display: none;
+}
+
+#google_translate_element .goog-te-combo {
+    padding: 10px;
+}
+
+@layer utilities {
+    .btn-submit {
+        @apply
+        hover:shadow-none
+        dark:!bg-white
+        text-primary
+        shadow-none
+        font-normal
+        rounded-sm
+        capitalize
+        text-base
+        !bg-black
+        w-[100%]
+        py-3;
+    }
+
+    .input-label-required{
+        @apply
+        mb-2
+        block
+        font-bold
+        after:pl-1
+        after:text-red
+        after:content-['*'];
+    }
+
+    .input-label {
+        @apply
+        mb-2
+        block
+        font-bold
+        after:pl-1;
+    }
+
+    .input-text {
+        @apply
+        px-2
+        py-3
+        w-[100%]
+        rounded-sm
+        border-[1px]
+        border-softGray;
+    }
+
+    .input-card{
+        @apply
+        px-2
+        py-4
+        w-[100%]
+        rounded-sm
+        border-[1px]
+        border-softGray
+        dark:!text-white
+        dark:!bg-[#3b3b3b]
+    }
+
+    .input-select {
+        @apply
+        py-3
+        px-2
+        w-[100%]
+        rounded-sm
+        border-[1px]
+        border-softGray;
+    }
+
+    .input-phone {
+        @apply
+        py-3
+        px-2
+        border
+        w-[100%]
+        bg-white
+        rounded-sm
+        border-[#ededed]
+        dark:bg-[#3b3b3b];
+    }
+
+    .input-signature {
+        @apply 
+        px-2 
+        py-3 
+        h-[8rem]
+        font-bold
+        rounded-sm  
+        text-center 
+        text-[1.8rem] 
+        bg-[#ededed]
+        text-[#3b3b3b];
+    }
+}
